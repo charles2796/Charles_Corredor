@@ -512,8 +512,8 @@ input[type="radio"] {
 /* Ajustes responsivos */
 @media (max-width: 768px) {
    .slider {
-      width: 50%;
-      height: 50%;
+      width: 350px;
+      height: 200px;
    }
 
    .controls {
