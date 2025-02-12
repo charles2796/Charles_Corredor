@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Charles</title>
+   <link rel="icon" type="image/png" href="log icon.png">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="JavaScript.js">
+
+</head>
+
+<body>
+
+   <header class="header">
+      <input type="checkbox" class="header__checkbox"  id="open-menu">
+      <label for="open-menu" class="header__open-nav-button" role="button">=
+      </label>
+      <div class="header__logo-container">
+         <img class="header__logo" src="log icon.png">
+      </div>
+
+      <nav class="header__nav">
+         <ul class="header__nav-list">
+            <li class="header__nav-item"> <a href="#profile">Inicio</a></li>
+            <li class="header__nav-item"><a href="#portfolio">Portafolio</a></li>
+            <li class="header__nav-item"> <a href="#estudios">Estudios</a></li>
+            <li class="header__nav-item"> <a href="#contacto">Contacto</a></li>
+         </ul>
+      </nav>
+
+   </header>
+
+   <main class="profile" id="profile">
+
+      <div class="profile__wrapper">
+         <div class="profile__img-container">
+            <img src="charles.png" class="profile__img">
+         </div>
+         <div class="profile__data-container">
+            <div class="profile__data">
+               <div class="profile__description">
+                  <h1> ¿Quién es Charles?</h1>
+                  <p>Mi nombre de pila es JHANN CHARLES CORREDOR
+                     JAIMES; me gusta que me llamen por mi segundo nombre (CHARLES). Actualmente trabajo en mis tiempos libres cómo diseñador freelancer, ya que; soy graduado como comunicador gráfica de la CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS (2019) y me encuentro culminando mi último semestre de trabajo social en la UNAL (UNIVERSIDAD NACIONAL DE COLOMBIA). Algunas de mis pasiones son: Viajar, cocinar, leer, visitar museos, entre otros.</p>
+               </div>
+               <div class="profile__skills-container">
+                  <h2>Habilidades</h2>
+                  <ul>
+                     <li class="profile__skill"> 
+                        <div class="loard-bar">
+                           <div class="loard-bar__bar bar--30">30%</div>
+                        </div>
+                        <span class="profile__skill-name">HTML</span>
+                     </li>
+
+                     <li class="profile__skill"> 
+                        <div class="loard-bar">
+                           <div class="loard-bar__bar bar--20">20%</div>
+                        </div>
+                        <span class="profile__skill-name">CSS</span>
+                     </li>
+
+                     <li class="profile__skill"> 
+                        <div class="loard-bar">
+                           <div class="loard-bar__bar bar--80">80%</div>
+                        </div>
+                        <span class="profile__skill-name">Ilustración</span>
+                     </li>
+
+                     <li class="profile__skill"> 
+                        <div class="loard-bar">
+                           <div class="loard-bar__bar bar--80">80%</div>
+                        </div>
+                        <span class="profile__skill-name">Animación</span>
+                     </li>
+
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+   <section class="portfolio" id="portfolio">
+      <h2 class="portfolio__title">Portafolio</h2>
+<!--contenedor de portafolio//-->
+<div class="slider">
+   <!-- Radio buttons -->
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <input type="radio" name="slider" id="slide5">
+   <input type="radio" name="slider" id="slide6">
+   <input type="radio" name="slider" id="slide7">
+   <input type="radio" name="slider" id="slide8">
+   <input type="radio" name="slider" id="slide9">
+   <input type="radio" name="slider" id="slide10">
+   
+   <!-- Contenedor de imágenes -->
+   <div class="slides">
+      <div class="slide"><div class="decripciones-fotografia"> <h4>Fotografía</h4></div><img src="DSC_0036.jpg" alt="Imagen 1"></div>
+      <div class="slide"><img src="DSC_0237.jpg" alt="Imagen 2"></div>
+      <div class="slide"><img src="IMG_0029.jpg" alt="Imagen 3"></div>
+      <div class="slide"><div class="decripciones-fotografia"> <h4>Ilustración Digital</h4></div><img src="Plantilla-de--título.png" alt="Imagen 4"></div>
+      <div class="slide"><img src="FB_IMG_1729639243649.jpg" alt="Imagen 5"></div>
+     
+      <div class="slide"><img src="instagram-charles-.png" alt="Imagen 6"></div>
+      <div class="slide"><div class="decripciones-fotografia"><h4>Ilustración análoga</h4></div><img src="FB_IMG_1729639287839.jpg" alt="Imagen 7"></div>
+      <div class="slide"><img src="FB_IMG_1729639258494.jpg" alt="Imagen 8"></div>
+      <div class="slide"><div class="decripciones-fotografia"><h4>Flayers</h4></div><img src="08-de-Marzo-2022.png" alt="Imagen 9"></div>
+      <div class="slide"><img src="Póster-Desarrollo-.png" alt="Imagen 10"></div>
+
+   </div>
+   
+   <!-- Botones manuales -->
+   <div class="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+      <label for="slide5"></label>
+      <label for="slide6"></label>
+      <label for="slide7"></label>
+      <label for="slide8"></label>
+      <label for="slide9"></label>
+      <label for="slide10"></label>
+   </div>
+</div>
+</section>
+
+
+
+   <section class="estudios" id="estudios">
+      <div class="estudios__es">
+      <h2 class="form__title"> Estudios</h2>
+      
+      <h3> CORPORACIÓN UNIVERSITARIA MINUTO DE DIOS </h3>
+      <h4> Tecnología en comunicación gráfica</h4>
+      <h3> COURSERA (Google) </h3>
+      <h4>Fundamentos de IA  de Google</h4>
+      <h4>Fundamentos del diseño de experiencias de usuario (UX)</h4>
+      <h4>Comenzar el proceso de diseño UX: Empatizar, definir e idear</h4>
+      <h4>Construir esquemas de páginas y prototipos de baja fidelidad</h4>
+      <h4>Investigación de la experiencia del usuario y prueba de los primeros conceptos</h4>
+      <h3>Talento TECH Oriente</h3>
+      <h4>Programación Básica</h4>
+   </div>
+   </section>
+
+   <div class="form" id="contacto">
+      <h2>Contacto</h2>
+      <div class="form__input-container">
+          <a href="https://www.linkedin.com/in/charles-co27/" target="_blank">
+              <button><img src="Asset 6@100x.png" class="imagenes_botones"></button>
+          </a>
+          <a href="https://www.instagram.com/charlescreativo/" target="_blank">
+              <button><img src="Asset 7@100x.png" class="imagenes_botones"></button>
+          </a>
+          <a href="https://wa.me/qr/DD64USS7RJG4G1" target="_blank">
+              <button><img src="Asset 8@100x.png" class="imagenes_botones"></button>
+          </a>
+      </div>
+      
+   <footer>Charles creativo - Copyright</footer>
+</body>
+</html>
